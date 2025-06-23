@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Demo Canh Giữa Ngang & Dọc</title>
+    <style>
+        /* Canh giữa bằng text-align */
+        .text-center {
+            text-align: center;
+            background: lightyellow;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        /* Canh giữa bằng margin auto */
+        .margin-auto {
+            width: 200px;
+            margin: 10px auto;
+            background: lightblue;
+            padding: 10px;
+        }
+
+        /* Canh giữa bằng flex */
+        .flex-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            background: lightgray;
+            margin: 10px;
+        }
+
+        .flex-box {
+            background: pink;
+            padding: 20px;
+        }
+
+        /* Canh giữa bằng position + transform */
+        .position-relative {
+            position: relative;
+            height: 200px;
+            background: lightgreen;
+            margin: 10px;
+        }
+
+        .position-absolute {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: gold;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Canh giữa bằng text-align -->
+    <div class="text-center">
+        <p>1️⃣ Đây là canh giữa bằng <b>text-align: center</b></p>
+    </div>
+
+    <!-- Canh giữa bằng margin auto -->
+    <div class="margin-auto">
+        <p>2️⃣ Đây là canh giữa bằng <b>margin: auto</b></p>
+    </div>
+
+    <!-- Canh giữa bằng flex -->
+    <div class="flex-center">
+        <div class="flex-box">3️⃣ Đây là canh giữa bằng <b>Flexbox</b></div>
+    </div>
+
+    <!-- Canh giữa bằng position absolute -->
+    <div class="position-relative">
+        <div class="position-absolute">4️⃣ Đây là canh giữa bằng <b>Position + Transform</b></div>
+    </div>
+
+</body>
+
+</html>
