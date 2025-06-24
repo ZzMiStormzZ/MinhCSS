@@ -49,7 +49,7 @@
 - Position:
 + Dùng position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); để đặt phần tử nằm giữa ngang và dọc so với phần tử cha (hoặc màn hình nếu dùng fixed).
 +  .khung-to {
-      position: relative;         
+      position: relative;      (trên cùng bên trái)   
       width: 400px;
       height: 300px;
       background: lightblue;
