@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dùng thẻ @media để thay đổi kích thước</title>
+    <style>
+        .box {
+            width: 400px;
+            background-color: blue;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        @media (max-width: 600px) {
+            .box {
+                width: 100%;
+                font-size: 16px;
+                background: pink;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">kiểm tra điều kiện kích thước màn hình</div>
+</body>
+
+</html>
