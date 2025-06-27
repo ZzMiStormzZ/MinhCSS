@@ -1,0 +1,9 @@
+.hopquabenho {
+    background: pink;
+    /* Màu hộp */
+    margin: 50px;
+    /* Khoảng trống bên ngoài hộp */
+    padding: 30px;
+    /* Khoảng trống bên trong hộp */
+    border: 2px solid black;
+}
