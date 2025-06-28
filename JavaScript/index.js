@@ -4,3 +4,4 @@ function displayNameOfAnimal(){
 }
 
 console.log(animal);
+fsdgdsgdhfjfg
