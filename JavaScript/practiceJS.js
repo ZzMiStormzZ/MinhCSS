@@ -34,6 +34,7 @@ function scopeTest() {
     }
     var num = 1
     console.log(num)
+
 }
 scopeTest()
 
@@ -42,3 +43,11 @@ scopeTest()
 // Ngoài if, thử console.log(count)
 // Hỏi result có error không ? Giải thích vì sao ?
 
+function blockScopeTest() {
+    if (true) {
+        let count = 10
+        console.log(count) // sẽ ra được kết quả là 10
+    }
+    // console.log(count) // lỗi tại đây vì let có phạm vi khối  nên khi biến console ngoài if thì biến đó sẽ không tồn tại và bị error
+}
+blockScopeTest()
